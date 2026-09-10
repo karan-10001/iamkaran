@@ -1,14 +1,14 @@
 /**
  * KARAN PRATAP SINGH - PORTFOLIO CONTROLLER
- * Senior Automation Test Engineer | Intermediate Agentic AI Engineer | Foundational DevOps
+ * Automation Engineer | Agentic AI Engineer | DevOps Foundations
  */
 
 // ==========================================
-// SCENARIO DEFINITIONS (QA, AGENTIC AI, DEVOPS)
+// SCENARIO DEFINITIONS (AUTOMATION, AGENTIC AI, DEVOPS)
 // ==========================================
 const SCENARIOS = {
   halliburton: {
-    category: 'Automation BDD (Senior)',
+    category: 'Automation Engineering',
     fileName: 'features/telemetry_auth.feature',
     tags: ['@halliburton', '@smoke', '@telemetry', '@playwright'],
     featureTitle: 'InnerVue Wellbore Telemetry Stream',
@@ -33,7 +33,7 @@ const SCENARIOS = {
     ]
   },
   agentic: {
-    category: 'Agentic AI (Intermediate)',
+    category: 'Agentic AI Engineering',
     fileName: 'agents/autonomous_test_repair.py',
     tags: ['@agentic-ai', '@langgraph', '@crewai', '@mcp', '@gemini-sdk'],
     featureTitle: 'LangGraph & Playwright MCP Multi-Agent Healing Graph',
@@ -54,11 +54,11 @@ const SCENARIOS = {
       'Semantic Extraction: Discovered optimal role locator: getByRole("button", { name: "Submit" })',
       'MCP Execution: Executing click() via MCP tool interface -> Action status: SUCCESS',
       'StateGraph Transition: analyze_dom -> propose_locator -> verify_selector -> END',
-      'Agentic Triage: Auto-generated Jira issue update [QA-4102: Drift self-healed]'
+      'Agentic Triage: Auto-generated Jira issue update [ENG-4102: Selector drift self-healed]'
     ]
   },
   devops: {
-    category: 'DevOps & Containers (Foundational)',
+    category: 'DevOps Foundations',
     fileName: '.github/workflows/sharded-tests.yml',
     tags: ['@devops', '@docker', '@k8s-basics', '@github-actions', '@ci-cd'],
     featureTitle: 'Containerized Sharded Test Execution Pipeline',
@@ -82,22 +82,22 @@ const SCENARIOS = {
     ]
   },
   mercedes: {
-    category: 'Automation BDD (Senior)',
+    category: 'Automation Engineering',
     fileName: 'features/basic_input_data.feature',
     tags: ['@mercedes', '@regression', '@rest-assured', '@k6'],
     featureTitle: 'Basic Input Data Multi-Tier Validation',
-    scenarioTitle: 'Validate input parameter synchronization across QA and PROD',
+    scenarioTitle: 'Validate input parameter synchronization across Staging and PROD',
     arch: 'REST Assured + Playwright UI + Grafana k6',
     artifact: 'bid_test_summary.html',
     steps: [
-      { kw: 'Given', text: 'the QA application environment is healthy and accessible', ms: 95 },
+      { kw: 'Given', text: 'the staging application environment is healthy and accessible', ms: 95 },
       { kw: 'When', text: 'user submits batch configuration payload via REST Assured client', ms: 310 },
       { kw: 'Then', text: 'backend returns HTTP 201 with valid transaction token', ms: 88 },
       { kw: 'And', text: 'frontend dashboard reflects synced record within 300 ms', ms: 142 }
     ],
     logs: [
       'Playwright: Worker 2 spun up on shard 1/4',
-      'Environment: Health check https://bid-qa.mercedes-benz.com/health returned 200',
+      'Environment: Health check https://bid-staging.mercedes-benz.com/health returned 200',
       'REST Assured: POST /api/v2/config/batch payload size: 4.8 KB',
       'Response: HTTP 201 Created | TransactionID: MB-DE-892401',
       'Page: getByRole("table").getByText("MB-DE-892401") is visible',
@@ -319,7 +319,7 @@ archTabBtns.forEach(btn => {
 
 // Theme Toggle
 const themeToggle = document.getElementById('themeToggle');
-const savedTheme = localStorage.getItem('kps_qa_theme') || 'dark';
+const savedTheme = localStorage.getItem('kps_portfolio_theme') || localStorage.getItem('kps_qa_theme') || 'dark';
 document.documentElement.setAttribute('data-theme', savedTheme);
 
 if (themeToggle) {
@@ -327,7 +327,7 @@ if (themeToggle) {
     const currentTheme = document.documentElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('kps_qa_theme', newTheme);
+    localStorage.setItem('kps_portfolio_theme', newTheme);
   });
 }
 
