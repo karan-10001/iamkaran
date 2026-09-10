@@ -336,7 +336,7 @@ const copyEmailBtn = document.getElementById('quickCopyEmail');
 const copyEmailText = document.getElementById('copyEmailText');
 if (copyEmailBtn) {
   copyEmailBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText('karan-pratap.singh@capgemini.com').then(() => {
+    navigator.clipboard.writeText('karanpratapsingh10001@gmail.com').then(() => {
       copyEmailText.textContent = 'Copied to Clipboard!';
       setTimeout(() => {
         copyEmailText.textContent = 'Copy Email';
