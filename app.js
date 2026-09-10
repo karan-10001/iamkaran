@@ -149,7 +149,7 @@ function renderScenario(key) {
     terminalTitle.textContent = `Runtime Engine: [${data.category}]`;
   }
 
-  let tagsHtml = data.tags.map(t => `<span class="g-tag">${t}</span>`).join(' ');
+  let tagsHtml = data.tags.map(t => `<span class="g-tag">${escapeHtml(t)}</span>`).join(' ');
 
   let stepsHtml = data.steps.map((step, idx) => `
     <div class="g-step-row" id="step-${idx}">
@@ -157,21 +157,21 @@ function renderScenario(key) {
         <span class="step-kw">${escapeHtml(step.kw)}</span>
         <span class="step-desc">${escapeHtml(step.text)}</span>
       </div>
-      <span class="step-time" id="step-time-${idx}">pending</span>
+      <span class="step-time pending" id="step-time-${idx}">pending</span>
     </div>
   `).join('');
 
   gherkinContainer.innerHTML = `
-    <div style="margin-bottom: 0.8rem;">
+    <div class="g-tags-row">
       ${tagsHtml}
     </div>
-    <div style="margin-bottom: 0.6rem;">
-      <span class="g-kw">Workflow / Feature:</span> <strong>${escapeHtml(data.featureTitle)}</strong>
+    <div class="g-feature-row">
+      <span class="g-kw">Workflow / Feature:</span> <strong class="g-feature-title">${escapeHtml(data.featureTitle)}</strong>
     </div>
-    <div style="margin-bottom: 1rem; padding-left: 0.75rem;">
-      <span class="g-kw">Execution Unit:</span> ${escapeHtml(data.scenarioTitle)}
+    <div class="g-scenario-row">
+      <span class="g-kw">Execution Unit:</span> <span class="g-scenario-title">${escapeHtml(data.scenarioTitle)}</span>
     </div>
-    <div class="steps-box" style="padding-left: 0.75rem;">
+    <div class="steps-box">
       ${stepsHtml}
     </div>
   `;
@@ -210,7 +210,8 @@ async function executeScenarioRun() {
     if (stepEl) {
       stepEl.className = 'g-step-row';
       timeEl.textContent = 'pending';
-      timeEl.style.color = 'var(--text-muted)';
+      timeEl.className = 'step-time pending';
+      timeEl.style.color = '';
     }
   }
 
@@ -225,7 +226,8 @@ async function executeScenarioRun() {
     if (stepEl) {
       stepEl.className = 'g-step-row running';
       timeEl.textContent = 'executing...';
-      timeEl.style.color = 'var(--accent-cyan)';
+      timeEl.className = 'step-time running';
+      timeEl.style.color = '';
     }
 
     // Step duration delay simulation
@@ -235,7 +237,8 @@ async function executeScenarioRun() {
     if (stepEl) {
       stepEl.className = 'g-step-row passed';
       timeEl.innerHTML = `&#10003; ${step.ms}ms`;
-      timeEl.style.color = 'var(--accent-emerald)';
+      timeEl.className = 'step-time passed';
+      timeEl.style.color = '';
     }
 
     addTerminalLine(`  ✔ ${step.kw} ${step.text} (${step.ms}ms)`, 'success');
