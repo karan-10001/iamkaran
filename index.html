@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karan Pratap Singh | Senior Automation Test Engineer & Agentic AI Engineer</title>
+  <meta name="description" content="Portfolio of Karan Pratap Singh: Senior Automation Test Engineer (Playwright, Cucumber BDD), Intermediate Agentic AI Engineer (LangGraph, CrewAI, MCP, Gemini/OpenAI/Claude SDKs, Python), and DevOps Engineer (Foundational: Docker, Kubernetes, CI/CD).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Futuristic Ambient Background -->
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="radial-glow glow-1" aria-hidden="true"></div>
+  <div class="radial-glow glow-2" aria-hidden="true"></div>
+
+  <!-- Ultra-Modern Floating Capsule Navigation Bar -->
+  <header class="navbar-wrapper" id="navbarWrapper">
+    <nav class="navbar-capsule" id="navbar">
+      <!-- Brand Logo (Preserving the exact loved styling) -->
+      <a href="#hero" class="brand" aria-label="Karan Pratap Singh Homepage">
+        <span class="brand-code">&lt;</span>
+        <span class="brand-name">Karan</span>
+        <span class="brand-tag">/QA·AI·DevOps</span>
+        <span class="brand-code">&gt;</span>
+      </a>
+
+      <!-- Desktop Nav Links with Sliding Indicator Pill -->
+      <div class="nav-links-wrap" id="navLinksWrap">
+        <div class="nav-pill-indicator" id="navPillIndicator" aria-hidden="true"></div>
+        <nav class="nav-links" id="navMenu">
+          <a href="#hero" class="nav-link active" data-section="hero">Overview</a>
+          <a href="#specializations" class="nav-link" data-section="specializations">Pillars</a>
+          <a href="#runner" class="nav-link nav-live" data-section="runner">
+            <span class="live-beacon"></span>
+            <span>Live Runner</span>
+          </a>
+          <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+          <a href="#architecture" class="nav-link" data-section="architecture">Architecture</a>
+          <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+          <a href="#credentials" class="nav-link" data-section="credentials">Credentials</a>
+        </nav>
+      </div>
+
+      <!-- Action Group -->
+      <div class="nav-actions">
+        <!-- Quick Social & Portfolio Links -->
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.25c-.96 0-1.74.78-1.74 1.74s.78 1.74 1.74 1.74 1.74-.78 1.74-1.74-.78-1.74-1.74-1.74Z"/></svg>
+        </a>
+
+        <a href="https://github.com/karan-10001" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="GitHub Profile" title="GitHub Profile">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
+        </a>
+
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="nav-icon-btn" aria-label="Toggle Theme" title="Switch Light/Dark Mode">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+
+        <!-- Primary Contact CTA -->
+        <a href="#contact" class="btn-nav-hire">
+          <span class="btn-hire-glow"></span>
+          <span class="btn-hire-content">
+            <span class="btn-hire-dot"></span>
+            <span>Get in Touch</span>
+          </span>
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Drawer" aria-expanded="false">
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="drawer-links">
+        <a href="#hero" class="drawer-link">
+          <span class="d-icon">⚡</span>
+          <span>Overview</span>
+        </a>
+        <a href="#specializations" class="drawer-link">
+          <span class="d-icon">🎯</span>
+          <span>Engineering Pillars</span>
+        </a>
+        <a href="#runner" class="drawer-link highlight-drawer">
+          <span class="d-icon">🧪</span>
+          <span>Live BDD &amp; AI Runner</span>
+        </a>
+        <a href="#experience" class="drawer-link">
+          <span class="d-icon">💼</span>
+          <span>Experience (Halliburton &amp; Mercedes)</span>
+        </a>
+        <a href="#architecture" class="drawer-link">
+          <span class="d-icon">🏛️</span>
+          <span>System Architecture</span>
+        </a>
+        <a href="#skills" class="drawer-link">
+          <span class="d-icon">🛠️</span>
+          <span>Skills Matrix</span>
+        </a>
+        <a href="#credentials" class="drawer-link">
+          <span class="d-icon">📜</span>
+          <span>Credentials &amp; Education</span>
+        </a>
+        <a href="#contact" class="drawer-link">
+          <span class="d-icon">📬</span>
+          <span>Contact Karan</span>
+        </a>
+      </div>
+
+      <div class="drawer-footer">
+        <div class="drawer-contact-info">
+          <div>📍 Bangalore, India</div>
+          <div>📞 +91 8103990097</div>
+          <div>📧 karan-pratap.singh@capgemini.com</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-layout">
+        <div class="hero-text-col">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span class="status-text">Available for Senior Automation & Agentic AI Roles</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Senior Automation Test Engineer <br>
+            <span class="gradient-text">&amp; Agentic AI Engineer</span>
+          </h1>
+
+          <div class="role-tiers-banner">
+            <span class="tier-pill senior">Senior: Automation &amp; BDD</span>
+            <span class="tier-pill intermediate">Intermediate: Agentic AI</span>
+            <span class="tier-pill foundational">Foundational: DevOps</span>
+          </div>
+
+          <p class="hero-title-role">
+            <strong>Karan Pratap Singh</strong> • Capgemini (Halliburton &amp; Mercedes-Benz MBRDI)
+          </p>
+
+          <p class="hero-bio">
+            <strong>2.5+ years of production experience</strong> engineering enterprise E2E test suites with <strong>Playwright, TypeScript, and Cucumber BDD</strong>. Alongside core QA engineering, I build <strong>Agentic AI workflows</strong> using <strong>Python, LangGraph, CrewAI, MCP, and LLM SDKs (OpenAI, Google Gemini, Anthropic Claude)</strong> to automate locator healing, defect triage, and synthetic test data generation, backed by foundational <strong>DevOps (Docker, Kubernetes, CI/CD)</strong>.
+          </p>
+
+          <!-- Contact Quick Badges -->
+          <div class="contact-badges">
+            <span class="badge-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Bangalore, India
+            </span>
+            <a href="tel:+918103990097" class="badge-item link-badge">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +91 8103990097
+            </a>
+            <a href="mailto:karan-pratap.singh@capgemini.com" class="badge-item link-badge">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              karan-pratap.singh@capgemini.com
+            </a>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#runner" class="btn btn-primary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Launch Live BDD &amp; AI Runner
+            </a>
+            <a href="#specializations" class="btn btn-secondary">
+              View Specializations
+            </a>
+            <button class="btn btn-outline" id="quickCopyEmail">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+              <span id="copyEmailText">Copy Email</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Metrics Display -->
+        <div class="hero-metrics-grid">
+          <div class="metric-box">
+            <div class="metric-badge senior-badge">Senior Level</div>
+            <div class="metric-val">450+</div>
+            <div class="metric-title">Test Cases Automated</div>
+            <p class="metric-desc">Playwright (TS/JS), Cucumber BDD, REST Assured, and Selenium.</p>
+          </div>
+          <div class="metric-box highlight-ai">
+            <div class="metric-badge intermediate-badge">Intermediate Level</div>
+            <div class="metric-val">Agentic AI</div>
+            <div class="metric-title">Multi-Agent Systems</div>
+            <p class="metric-desc">Python, LangGraph, CrewAI, MCP, OpenAI, Gemini &amp; Claude SDKs.</p>
+          </div>
+          <div class="metric-box">
+            <div class="metric-badge senior-badge">Senior Level</div>
+            <div class="metric-val">100+</div>
+            <div class="metric-title">Tests Migrated</div>
+            <p class="metric-desc">Seamless migration from Selenide to Playwright BDD architecture.</p>
+          </div>
+          <div class="metric-box highlight-devops">
+            <div class="metric-badge foundational-badge">Foundational Level</div>
+            <div class="metric-val">DevOps</div>
+            <div class="metric-title">Containers &amp; Pipelines</div>
+            <p class="metric-desc">Docker containers, Kubernetes basics, GitHub Actions &amp; Azure DevOps CI/CD.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- T-Shaped Profile Breakdown -->
+    <section id="specializations" class="section spec-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="sub-badge">Engineering Depth &amp; Breadth</span>
+          <h2 class="section-heading">My Three Engineering Pillars</h2>
+          <p class="section-subtext">
+            An authentic, transparent breakdown of my core competencies, from senior test automation expertise to intermediate Agentic AI workflows and foundational DevOps infrastructure.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1: Senior Automation Test Engineer -->
+          <div class="pillar-card senior-card">
+            <div class="pillar-level-header">
+              <span class="level-indicator senior">Senior Competency</span>
+              <span class="exp-tag">2.5+ Years Production</span>
+            </div>
+            <div class="pillar-icon">🧪</div>
+            <h3 class="pillar-title">Senior Automation Test Engineer</h3>
+            <p class="pillar-desc">
+              End-to-end framework architecture, flakiness elimination, and enterprise test acceleration.
+            </p>
+            <ul class="pillar-list">
+              <li><strong>Playwright &amp; TypeScript:</strong> Page Object Model, custom fixtures, auto-waiting assertions, multi-browser contexts.</li>
+              <li><strong>Cucumber BDD &amp; Gherkin:</strong> Three Amigos alignment, reusable step definitions, custom World parameters.</li>
+              <li><strong>API &amp; Performance:</strong> Playwright `APIRequestContext`, REST Assured, Postman, and Grafana k6 load benchmarking.</li>
+              <li><strong>Production Deliveries:</strong> Halliburton (InnerVue) and Mercedes-Benz (MBRDI onsite).</li>
+            </ul>
+          </div>
+
+          <!-- Pillar 2: Agentic AI Engineer -->
+          <div class="pillar-card ai-card">
+            <div class="pillar-level-header">
+              <span class="level-indicator intermediate">Intermediate Competency</span>
+              <span class="exp-tag">Hands-on Multi-Agent Workflows</span>
+            </div>
+            <div class="pillar-icon">🤖</div>
+            <h3 class="pillar-title">Agentic AI Engineer</h3>
+            <p class="pillar-desc">
+              Building intelligent, autonomous agent workflows connecting LLMs to runtime tools and testing environments.
+            </p>
+            <ul class="pillar-list">
+              <li><strong>Multi-Agent Frameworks:</strong> Designing stateful multi-agent graphs with <strong>LangGraph</strong> and role-based agent teams with <strong>CrewAI</strong>.</li>
+              <li><strong>LLM SDKs (Python):</strong> Practical integration using <strong>Google Gemini SDK, OpenAI SDK, and Anthropic Claude SDK</strong>.</li>
+              <li><strong>Model Context Protocol (MCP):</strong> Integrating Playwright MCP servers for dynamic DOM tree inspection and autonomous locator repair.</li>
+              <li><strong>AI-Assisted QA:</strong> Automated defect triage, user story to Gherkin generation, and Copilot custom agents.</li>
+            </ul>
+          </div>
+
+          <!-- Pillar 3: DevOps Engineer -->
+          <div class="pillar-card devops-card">
+            <div class="pillar-level-header">
+              <span class="level-indicator foundational">Foundational Competency</span>
+              <span class="exp-tag">Containers &amp; Pipelines</span>
+            </div>
+            <div class="pillar-icon">⚡</div>
+            <h3 class="pillar-title">DevOps Engineer</h3>
+            <p class="pillar-desc">
+              Foundational knowledge in containerization, cluster basics, and continuous integration pipelines.
+            </p>
+            <ul class="pillar-list">
+              <li><strong>Docker:</strong> Containerizing test suites, multi-stage Dockerfiles, headless browser environments.</li>
+              <li><strong>Kubernetes (Basics):</strong> Test pod orchestration, cluster configuration fundamentals, and container lifecycle.</li>
+              <li><strong>CI/CD Pipelines:</strong> GitHub Actions matrix sharding, Azure DevOps pipeline triggers, automated status quality gates.</li>
+              <li><strong>Test Observability:</strong> Automated artifact uploading for Allure reports, traces, and video logs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE INTERACTIVE RUNNER (Proof of Skill) -->
+    <section id="runner" class="section runner-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="sub-badge">Interactive Proof of Skill</span>
+          <h2 class="section-heading">Playwright, BDD &amp; Agentic AI Live Runner</h2>
+          <p class="section-subtext">
+            Test my engineering capabilities live! Select an automation, multi-agent AI, or containerized pipeline scenario below and launch the simulated execution.
+          </p>
+        </div>
+
+        <div class="runner-card">
+          <!-- Runner Controls Bar -->
+          <div class="runner-topbar">
+            <div class="scenario-selector-wrap">
+              <label for="scenarioPicker" class="selector-label">Select Execution Scenario:</label>
+              <select id="scenarioPicker" class="scenario-dropdown">
+                <option value="halliburton">🧪 [QA Senior] @halliburton @smoke - InnerVue Telemetry Auth via Playwright API</option>
+                <option value="agentic">🤖 [Agentic AI] @agentic-ai @langgraph @mcp - Multi-Agent Self-Healing Test &amp; Defect Triage</option>
+                <option value="devops">⚡ [DevOps Foundational] @devops @docker @ci-cd - Containerized Test Shard in GitHub Actions</option>
+                <option value="mercedes">🧪 [QA Senior] @mercedes @regression - Basic Input Data Multi-Environment Validation</option>
+              </select>
+            </div>
+
+            <div class="runner-action-wrap">
+              <button id="runScenarioBtn" class="btn btn-primary run-button">
+                <svg id="runBtnIcon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                <span id="runBtnText">Run Scenario</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Runner Workspace Split -->
+          <div class="runner-split">
+            <!-- Left: Feature Code & Visual Steps -->
+            <div class="split-pane gherkin-pane">
+              <div class="pane-header">
+                <span class="file-icon">📄</span>
+                <span class="file-name" id="featureFileName">features/telemetry_auth.feature</span>
+                <span class="badge-tag" id="scenarioCategoryBadge">Automation BDD</span>
+              </div>
+
+              <div class="gherkin-container" id="gherkinContainer">
+                <!-- Injected via JavaScript -->
+              </div>
+            </div>
+
+            <!-- Right: Simulated Worker Terminal & Metrics -->
+            <div class="split-pane terminal-pane">
+              <div class="pane-header">
+                <div class="traffic-lights">
+                  <span class="light red"></span>
+                  <span class="light yellow"></span>
+                  <span class="light green"></span>
+                </div>
+                <span class="terminal-title" id="terminalTitle">Runner Engine [Playwright / LangGraph / Docker]</span>
+                <span class="status-chip" id="runnerStatusChip">IDLE</span>
+              </div>
+
+              <div class="terminal-console" id="terminalConsole">
+                <div class="console-line sys">> System Environment Ready.</div>
+                <div class="console-line comment">> Playwright v1.45.0 + Python 3.12 (LangGraph / CrewAI / MCP) + Docker Daemon ready.</div>
+                <div class="console-line comment">> Select a scenario above and click "Run Scenario" to observe live output...</div>
+              </div>
+
+              <div class="terminal-footer-metrics">
+                <div class="metric-pill">
+                  <span class="pill-label">Status:</span>
+                  <span class="pill-value text-success" id="statStatus">Ready</span>
+                </div>
+                <div class="metric-pill">
+                  <span class="pill-label">Architecture:</span>
+                  <span class="pill-value text-cyan" id="statArch">Playwright + BDD</span>
+                </div>
+                <div class="metric-pill">
+                  <span class="pill-label">Trace / Artifact:</span>
+                  <span class="pill-value" id="statArtifact">trace.zip</span>
+                </div>
+                <div class="metric-pill">
+                  <span class="pill-label">Duration:</span>
+                  <span class="pill-value" id="statDuration">--</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience Timeline -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="sub-badge">Production Track Record</span>
+          <h2 class="section-heading">Professional Experience</h2>
+          <p class="section-subtext">
+            Delivering mission-critical quality engineering and modern automation solutions at <strong>Capgemini</strong> for Fortune 500 energy and luxury automotive leaders.
+          </p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Role 1: Halliburton -->
+          <div class="timeline-card-item">
+            <div class="timeline-node">
+              <span class="node-ring"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="client-badge halliburton">Halliburton</div>
+                  <h3 class="role-headline">Automation Test Engineer (InnerVue Application)</h3>
+                  <div class="role-meta-info">Capgemini Offshore Delivery • Global Energy Software</div>
+                </div>
+                <div class="header-right">
+                  <span class="duration-pill">April 2026 – September 2026</span>
+                </div>
+              </div>
+
+              <p class="role-summary-text">
+                Contributed to the modernization of the test automation ecosystem by developing a Playwright-based BDD framework using TypeScript and Cucumber, enabling faster and more reliable software releases.
+              </p>
+
+              <div class="achievements-list">
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>Playwright BDD Framework from Scratch &amp; Migration:</strong> Developed a scalable <strong>Playwright + TypeScript + Cucumber BDD</strong> framework from scratch and migrated <strong>100+ test cases from Selenide to Playwright</strong>.
+                  </div>
+                </div>
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>150+ Tests Automated &amp; CI/CD:</strong> Automated <strong>150+ test cases</strong> across smoke, regression, and end-to-end scenarios, and built CI/CD pipelines for continuous test execution.
+                  </div>
+                </div>
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>AI-Assisted Workflows with Copilot Agents &amp; Playwright MCP:</strong> Implemented AI-assisted automation workflows by creating custom <strong>GitHub Copilot agents</strong> and integrating <strong>Playwright MCP servers</strong> for locator inspection, test development, and defect management, significantly improving automation productivity.
+                  </div>
+                </div>
+              </div>
+
+              <div class="pill-tags-group">
+                <span class="ptag active">Playwright</span>
+                <span class="ptag active">TypeScript</span>
+                <span class="ptag active">Cucumber BDD</span>
+                <span class="ptag">Gherkin</span>
+                <span class="ptag highlight">GitHub Copilot Agents</span>
+                <span class="ptag highlight">Playwright MCP</span>
+                <span class="ptag devops">CI/CD Pipelines</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: Mercedes-Benz Project 1 -->
+          <div class="timeline-card-item">
+            <div class="timeline-node">
+              <span class="node-ring"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="client-badge mercedes">Mercedes-Benz (MBRDI)</div>
+                  <h3 class="role-headline">QA &amp; Automation Engineer (Basic Input Data Application)</h3>
+                  <div class="role-meta-info">Onsite • International Collaboration with German Team across QA &amp; PROD</div>
+                </div>
+                <div class="header-right">
+                  <span class="duration-pill">February 2025 – March 2026</span>
+                </div>
+              </div>
+
+              <p class="role-summary-text">
+                Managed end-to-end testing for a newly developed application, collaborating with German team members across global environments (QA, PROD). Drove automation and validation across UI, API, and performance layers to ensure high-quality and reliable releases.
+              </p>
+
+              <div class="achievements-list">
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>200+ Test Cases Automated:</strong> Automated 200+ test cases across regression, smoke, and sanity suites ensuring multi-environment stability.
+                  </div>
+                </div>
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>API Backend Validation:</strong> Executed API testing using <strong>Postman</strong> and <strong>REST Assured</strong> for backend validation.
+                  </div>
+                </div>
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>Performance Testing with Grafana k6:</strong> Conducted performance testing using <strong>k6</strong> to validate system scalability under load.
+                  </div>
+                </div>
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>Agentic AI Approaches:</strong> Implemented AI-driven (Agentic AI) approaches to accelerate test case creation and automation scripting.
+                  </div>
+                </div>
+              </div>
+
+              <div class="pill-tags-group">
+                <span class="ptag active">REST Assured</span>
+                <span class="ptag active">Postman</span>
+                <span class="ptag active">Grafana k6</span>
+                <span class="ptag highlight">Agentic AI Testing</span>
+                <span class="ptag">Global QA/PROD</span>
+                <span class="ptag">End-to-End Validation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 3: Mercedes-Benz Project 2 -->
+          <div class="timeline-card-item">
+            <div class="timeline-node">
+              <span class="node-ring"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="client-badge mercedes">Mercedes-Benz (MBRDI)</div>
+                  <h3 class="role-headline">QA &amp; Automation Engineer (Admin Panel Application)</h3>
+                  <div class="role-meta-info">Onsite • Owner's Manual Program</div>
+                </div>
+                <div class="header-right">
+                  <span class="duration-pill">June 2024 – February 2025</span>
+                </div>
+              </div>
+
+              <p class="role-summary-text">
+                Worked onsite on the Owner's Manual program, driving end-to-end testing and automating regression suites using Selenium (Java), improving test coverage and execution efficiency.
+              </p>
+
+              <div class="achievements-list">
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>40% Manual Effort Slashed:</strong> Designed and automated 150+ test cases using <strong>Selenium + Java</strong>, improved regression coverage and reduced manual effort by ~40%.
+                  </div>
+                </div>
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>Framework Components:</strong> Developed and maintained automation framework components for scalable regression testing.
+                  </div>
+                </div>
+                <div class="achievement-entry">
+                  <span class="achieve-bullet">✦</span>
+                  <div>
+                    <strong>Dashboards &amp; CI/CD Integration:</strong> Built Confluence dashboards and reports for test tracking and stakeholder visibility, and supported CI/CD pipeline integration to improve release speed and quality.
+                  </div>
+                </div>
+              </div>
+
+              <div class="pill-tags-group">
+                <span class="ptag active">Selenium (Java)</span>
+                <span class="ptag">TestNG</span>
+                <span class="ptag">Jira</span>
+                <span class="ptag">Confluence</span>
+                <span class="ptag devops">CI/CD Integration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Architecture & Technical Deep-Dive -->
+    <section id="architecture" class="section arch-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="sub-badge">System Architecture</span>
+          <h2 class="section-heading">How I Architect Test &amp; AI Systems</h2>
+          <p class="section-subtext">
+            From declarative BDD layers to stateful LangGraph multi-agent systems and containerized CI/CD pipelines.
+          </p>
+        </div>
+
+        <div class="tabs-nav" id="archTabsNav">
+          <button class="tab-btn active" data-tab="bdd-spec">1. Playwright BDD Architecture</button>
+          <button class="tab-btn" data-tab="agentic-ai">2. Agentic AI (LangGraph &amp; CrewAI)</button>
+          <button class="tab-btn" data-tab="mcp-protocol">3. Model Context Protocol (MCP)</button>
+          <button class="tab-btn" data-tab="llm-sdks">4. Python &amp; LLM SDKs</button>
+          <button class="tab-btn" data-tab="devops-containers">5. DevOps: Docker &amp; CI/CD</button>
+        </div>
+
+        <div class="tabs-content-box">
+          <!-- Tab 1: Playwright BDD -->
+          <div class="tab-panel active" id="pane-bdd-spec">
+            <div class="panel-two-col">
+              <div class="panel-info">
+                <span class="panel-level-tag senior">Senior QA Framework</span>
+                <h3>Modular Playwright BDD + Custom World</h3>
+                <p>
+                  Built with TypeScript and Cucumber.js, this architecture decouples business logic from execution mechanics. Utilizes Playwright's `APIRequestContext` to inject authentication state, cutting test duration by up to 60%.
+                </p>
+                <div class="panel-highlights">
+                  <div class="highlight-point">✓ <strong>Declarative Gherkin:</strong> Three Amigos standard for unambiguous acceptance criteria.</div>
+                  <div class="highlight-point">✓ <strong>Semantic Locators:</strong> `getByRole` &amp; `getByTestId` with auto-waiting assertions (no hardcoded sleeps).</div>
+                  <div class="highlight-point">✓ <strong>Custom Cucumber World:</strong> Encapsulates isolated browser contexts, API clients, and trace collectors.</div>
+                </div>
+              </div>
+              <div class="panel-snippet">
+                <div class="snippet-header">support/custom-world.ts</div>
+                <pre class="code-block"><code><span class="t-kw">import</span> { <span class="t-type">World</span> } <span class="t-kw">from</span> <span class="t-str">'@cucumber/cucumber'</span>;
+<span class="t-kw">import</span> { <span class="t-type">BrowserContext</span>, <span class="t-type">Page</span>, <span class="t-type">APIRequestContext</span> } <span class="t-kw">from</span> <span class="t-str">'playwright'</span>;
+
+<span class="t-kw">export class</span> <span class="t-type">CustomWorld</span> <span class="t-kw">extends</span> <span class="t-type">World</span> {
+  page!: <span class="t-type">Page</span>;
+  context!: <span class="t-type">BrowserContext</span>;
+  apiClient!: <span class="t-type">APIRequestContext</span>;
+
+  <span class="t-kw">async</span> initContext(storageState?: <span class="t-type">string</span>) {
+    <span class="t-kw">this</span>.context = <span class="t-kw">await</span> browser.newContext({ storageState });
+    <span class="t-kw">this</span>.page = <span class="t-kw">await</span> <span class="t-kw">this</span>.context.newPage();
+  }
+}</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 2: Agentic AI (LangGraph & CrewAI) -->
+          <div class="tab-panel" id="pane-agentic-ai">
+            <div class="panel-two-col">
+              <div class="panel-info">
+                <span class="panel-level-tag intermediate">Intermediate Agentic AI</span>
+                <h3>Multi-Agent Orchestration with LangGraph &amp; CrewAI</h3>
+                <p>
+                  I build stateful multi-agent graphs where specialized agents coordinate: a <em>Planner Agent</em> breaks down test objectives, an <em>Inspector Agent</em> queries runtime UI states, and a <em>Verifier Agent</em> validates assertion criteria.
+                </p>
+                <div class="panel-highlights">
+                  <div class="highlight-point">✓ <strong>LangGraph StateGraph:</strong> Stateful cyclical workflows for self-correcting test executions.</div>
+                  <div class="highlight-point">✓ <strong>CrewAI Role Delegation:</strong> Hierarchical crews for automated regression analysis and report drafting.</div>
+                  <div class="highlight-point">✓ <strong>Autonomous Fallback:</strong> If a locator fails, the agent inspects the DOM and proposes the closest semantic locator.</div>
+                </div>
+              </div>
+              <div class="panel-snippet">
+                <div class="snippet-header">agents/test_repair_graph.py (LangGraph)</div>
+                <pre class="code-block"><code><span class="t-kw">from</span> langgraph.graph <span class="t-kw">import</span> StateGraph, END
+<span class="t-kw">from</span> typing <span class="t-kw">import</span> TypedDict
+
+<span class="t-kw">class</span> <span class="t-type">AgentState</span>(TypedDict):
+    dom_snapshot: <span class="t-type">str</span>
+    failed_selector: <span class="t-type">str</span>
+    repaired_locator: <span class="t-type">str</span>
+    confidence: <span class="t-type">float</span>
+
+workflow = StateGraph(AgentState)
+workflow.add_node(<span class="t-str">"analyze_dom"</span>, dom_analyzer_agent)
+workflow.add_node(<span class="t-str">"propose_locator"</span>, semantic_locator_agent)
+workflow.add_node(<span class="t-str">"verify_selector"</span>, playwright_verification_agent)
+
+workflow.set_entry_point(<span class="t-str">"analyze_dom"</span>)
+workflow.add_edge(<span class="t-str">"analyze_dom"</span>, <span class="t-str">"propose_locator"</span>)
+workflow.add_edge(<span class="t-str">"propose_locator"</span>, <span class="t-str">"verify_selector"</span>)
+workflow.add_edge(<span class="t-str">"verify_selector"</span>, END)</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 3: Model Context Protocol (MCP) -->
+          <div class="tab-panel" id="pane-mcp-protocol">
+            <div class="panel-two-col">
+              <div class="panel-info">
+                <span class="panel-level-tag intermediate">Intermediate Agentic AI</span>
+                <h3>Model Context Protocol (MCP) for Playwright</h3>
+                <p>
+                  Connecting AI models directly to the live browser via Anthropic's Model Context Protocol. The Playwright MCP server exposes browser primitives as standardized tools for LLMs, enabling agents to navigate, click, inspect accessibility trees, and extract network logs.
+                </p>
+                <div class="panel-highlights">
+                  <div class="highlight-point">✓ <strong>Direct DOM &amp; Accessibility Tree Access:</strong> Agent reasons over real browser elements.</div>
+                  <div class="highlight-point">✓ <strong>Tool Invocation Standardization:</strong> Consistent schema across Claude, Copilot, and Gemini agents.</div>
+                  <div class="highlight-point">✓ <strong>Defect Reproduction:</strong> Automatically captures video, HAR, and console logs upon encountering errors.</div>
+                </div>
+              </div>
+              <div class="panel-snippet">
+                <div class="snippet-header">mcp_config.json (Playwright MCP Server)</div>
+                <pre class="code-block"><code>{
+  <span class="t-str">"mcpServers"</span>: {
+    <span class="t-str">"playwright-qa-agent"</span>: {
+      <span class="t-str">"command"</span>: <span class="t-str">"npx"</span>,
+      <span class="t-str">"args"</span>: [<span class="t-str">"@modelcontextprotocol/server-playwright"</span>],
+      <span class="t-str">"env"</span>: {
+        <span class="t-str">"HEADLESS"</span>: <span class="t-str">"true"</span>,
+        <span class="t-str">"RECORD_TRACES"</span>: <span class="t-str">"true"</span>
+      }
+    }
+  }
+}</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 4: Python & LLM SDKs -->
+          <div class="tab-panel" id="pane-llm-sdks">
+            <div class="panel-two-col">
+              <div class="panel-info">
+                <span class="panel-level-tag intermediate">Intermediate Agentic AI</span>
+                <h3>Python, OpenAI, Gemini &amp; Claude SDKs</h3>
+                <p>
+                  Developing custom agentic scripts in <strong>Python</strong> leveraging official SDKs from <strong>Google Gemini, OpenAI, and Anthropic Claude</strong>. Used for structured test case synthesis from Jira specifications, automated log diagnosis, and test data generation.
+                </p>
+                <div class="panel-highlights">
+                  <div class="highlight-point">✓ <strong>Structured Outputs (Pydantic):</strong> Enforcing strict JSON schemas for Gherkin step output.</div>
+                  <div class="highlight-point">✓ <strong>Function &amp; Tool Calling:</strong> Hooking LLM tool calls into Playwright and REST clients.</div>
+                  <div class="highlight-point">✓ <strong>Prompt Engineering for QA:</strong> Few-shot prompt templates tailored to regression edge cases.</div>
+                </div>
+              </div>
+              <div class="panel-snippet">
+                <div class="snippet-header">scripts/generate_gherkin_gemini.py</div>
+                <pre class="code-block"><code><span class="t-kw">from</span> google <span class="t-kw">import</span> genai
+<span class="t-kw">from</span> pydantic <span class="t-kw">import</span> BaseModel
+
+<span class="t-kw">class</span> <span class="t-type">GherkinScenario</span>(BaseModel):
+    feature_title: <span class="t-type">str</span>
+    tags: <span class="t-type">list</span>[<span class="t-type">str</span>]
+    steps: <span class="t-type">list</span>[<span class="t-type">str</span>]
+
+client = genai.Client()
+response = client.models.generate_content(
+    model=<span class="t-str">'gemini-2.5-flash'</span>,
+    contents=<span class="t-str">"Generate BDD scenarios for Halliburton sensor timeout"</span>,
+    config={ <span class="t-str">"response_mime_type"</span>: <span class="t-str">"application/json"</span>, <span class="t-str">"response_schema"</span>: GherkinScenario }
+)</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 5: DevOps: Docker & CI/CD -->
+          <div class="panel-info tab-panel" id="pane-devops-containers">
+            <div class="panel-two-col">
+              <div class="panel-info">
+                <span class="panel-level-tag foundational">Foundational DevOps</span>
+                <h3>Docker Containers &amp; CI/CD Pipelines</h3>
+                <p>
+                  Leveraging <strong>Docker</strong> to eliminate "works on my machine" issues by packaging Playwright, browsers, and Node/Python dependencies into lightweight container images. Managing CI/CD pipelines in <strong>GitHub Actions</strong> and <strong>Azure DevOps</strong> with parallel test sharding.
+                </p>
+                <div class="panel-highlights">
+                  <div class="highlight-point">✓ <strong>Docker Containerization:</strong> Standardized execution environments with headless Chromium/WebKit.</div>
+                  <div class="highlight-point">✓ <strong>Kubernetes (Basics):</strong> Understanding container pods, manifests, and cluster deployment workflows.</div>
+                  <div class="highlight-point">✓ <strong>GitHub Actions Sharding:</strong> Matrix strategy running parallel test shards across cloud runners.</div>
+                </div>
+              </div>
+              <div class="panel-snippet">
+                <div class="snippet-header">Dockerfile &amp; .github/workflows/ci.yml</div>
+                <pre class="code-block"><code><span class="t-comment"># Multi-stage Playwright Docker Container</span>
+<span class="t-kw">FROM</span> mcr.microsoft.com/playwright:v1.45.0-jammy
+<span class="t-kw">WORKDIR</span> /app
+<span class="t-kw">COPY</span> package*.json ./
+<span class="t-kw">RUN</span> npm ci
+<span class="t-kw">COPY</span> . .
+<span class="t-kw">CMD</span> [<span class="t-str">"npx"</span>, <span class="t-str">"cucumber-js"</span>, <span class="t-str">"--tags"</span>, <span class="t-str">"@smoke"</span>]
+
+<span class="t-comment"># GitHub Actions Sharded Execution Matrix</span>
+<span class="t-kw">strategy</span>:
+  <span class="t-kw">matrix</span>:
+    <span class="t-kw">shard</span>: [<span class="t-num">1</span>, <span class="t-num">2</span>, <span class="t-num">3</span>, <span class="t-num">4</span>]
+<span class="t-kw">steps</span>:
+  - <span class="t-kw">run</span>: npx cucumber-js --shard=${{ matrix.shard }}/4</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comprehensive Skills Grid -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="sub-badge">Skills Matrix</span>
+          <h2 class="section-heading">Categorized Competencies</h2>
+          <p class="section-subtext">
+            Clearly segmented by proficiency level: Senior Automation Testing, Intermediate Agentic AI, and Foundational DevOps.
+          </p>
+        </div>
+
+        <div class="skill-category-grid">
+          <!-- 1. Senior UI Automation -->
+          <div class="category-box senior-box">
+            <div class="cat-top">
+              <span class="cat-icon-badge">🖥️</span>
+              <div>
+                <h4>UI Automation</h4>
+                <span class="cat-tier senior-tier">Senior Level (Primary)</span>
+              </div>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip primary">Playwright (TS/JS)</span>
+              <span class="skill-chip primary">Cucumber BDD</span>
+              <span class="skill-chip primary">Gherkin Syntax</span>
+              <span class="skill-chip">Selenium (Java)</span>
+              <span class="skill-chip">Page Object Model (POM)</span>
+              <span class="skill-chip">TestNG / JUnit</span>
+              <span class="skill-chip">Cross-Browser Testing</span>
+            </div>
+          </div>
+
+          <!-- 2. Intermediate Agentic AI -->
+          <div class="category-box ai-box">
+            <div class="cat-top">
+              <span class="cat-icon-badge">🤖</span>
+              <div>
+                <h4>Agentic AI Engineering</h4>
+                <span class="cat-tier ai-tier">Intermediate Level</span>
+              </div>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip ai-chip">LangGraph</span>
+              <span class="skill-chip ai-chip">CrewAI</span>
+              <span class="skill-chip ai-chip">Model Context Protocol (MCP)</span>
+              <span class="skill-chip ai-chip">Playwright MCP Server</span>
+              <span class="skill-chip">OpenAI SDK</span>
+              <span class="skill-chip">Google Gemini SDK</span>
+              <span class="skill-chip">Anthropic Claude SDK</span>
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">GitHub Copilot Agents</span>
+              <span class="skill-chip">Prompt Engineering for QA</span>
+            </div>
+          </div>
+
+          <!-- 3. Senior API Testing -->
+          <div class="category-box senior-box">
+            <div class="cat-top">
+              <span class="cat-icon-badge">⚡</span>
+              <div>
+                <h4>API &amp; Backend Testing</h4>
+                <span class="cat-tier senior-tier">Senior Level</span>
+              </div>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip primary">REST Assured</span>
+              <span class="skill-chip primary">Playwright APIRequestContext</span>
+              <span class="skill-chip primary">Postman</span>
+              <span class="skill-chip">REST APIs</span>
+              <span class="skill-chip">SOAP APIs</span>
+              <span class="skill-chip">GraphQL</span>
+              <span class="skill-chip">JSON Schema Validation</span>
+            </div>
+          </div>
+
+          <!-- 4. Foundational DevOps -->
+          <div class="category-box devops-box">
+            <div class="cat-top">
+              <span class="cat-icon-badge">🚀</span>
+              <div>
+                <h4>DevOps &amp; Infrastructure</h4>
+                <span class="cat-tier devops-tier">Foundational / Beginner</span>
+              </div>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip devops-chip">Docker Containers</span>
+              <span class="skill-chip devops-chip">Kubernetes (Basics)</span>
+              <span class="skill-chip devops-chip">GitHub Actions CI/CD</span>
+              <span class="skill-chip">Azure DevOps Pipelines</span>
+              <span class="skill-chip">Git / GitHub Workflow</span>
+              <span class="skill-chip">Playwright Sharded Runners</span>
+            </div>
+          </div>
+
+          <!-- 5. Performance & Mobile -->
+          <div class="category-box">
+            <div class="cat-top">
+              <span class="cat-icon-badge">📊</span>
+              <div>
+                <h4>Performance &amp; Mobile</h4>
+                <span class="cat-tier neutral-tier">Production Experience</span>
+              </div>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip primary">Grafana k6</span>
+              <span class="skill-chip">Grafana Dashboards</span>
+              <span class="skill-chip">Appium</span>
+              <span class="skill-chip">Android Native &amp; Hybrid Apps</span>
+              <span class="skill-chip">Load Testing</span>
+            </div>
+          </div>
+
+          <!-- 6. Programming Languages & Tools -->
+          <div class="category-box">
+            <div class="cat-top">
+              <span class="cat-icon-badge">🛠️</span>
+              <div>
+                <h4>Languages &amp; Ecosystem</h4>
+                <span class="cat-tier neutral-tier">Core Tooling</span>
+              </div>
+            </div>
+            <div class="chips-container">
+              <span class="skill-chip primary">Python</span>
+              <span class="skill-chip primary">TypeScript</span>
+              <span class="skill-chip primary">JavaScript (ES6+)</span>
+              <span class="skill-chip">Java</span>
+              <span class="skill-chip">Jira</span>
+              <span class="skill-chip">Confluence</span>
+              <span class="skill-chip">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Academic Background -->
+    <section id="credentials" class="section credentials-section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="sub-badge">Verified Credentials</span>
+          <h2 class="section-heading">Certifications &amp; Education</h2>
+        </div>
+
+        <div class="cred-two-col">
+          <!-- Certifications -->
+          <div class="cred-col">
+            <h3 class="cred-col-title">
+              <span class="icon">📜</span> Professional Certifications &amp; Training
+            </h3>
+
+            <div class="cert-list">
+              <div class="cert-entry ai-cert">
+                <span class="cert-time ai">15 Hours</span>
+                <div class="cert-details">
+                  <h4>AI Tools &amp; Build AI Agents for QA Automation</h4>
+                  <p>Agentic AI workflows, LLM Integration, LangGraph &amp; Copilot Agents • Udemy</p>
+                </div>
+              </div>
+
+              <div class="cert-entry">
+                <span class="cert-time">30 Hours</span>
+                <div class="cert-details">
+                  <h4>Playwright Automation (JavaScript/TypeScript)</h4>
+                  <p>Modern Web Automation, Auto-waiting &amp; API Context Specialization</p>
+                </div>
+              </div>
+
+              <div class="cert-entry">
+                <span class="cert-time">200 Hours</span>
+                <div class="cert-details">
+                  <h4>Selenium Automation Testing (Java)</h4>
+                  <p>Comprehensive Masterclass on Framework Architecture &amp; CI/CD • Udemy</p>
+                </div>
+              </div>
+
+              <div class="cert-entry">
+                <span class="cert-time">Specialist</span>
+                <div class="cert-details">
+                  <h4>API Automation Testing Masterclass</h4>
+                  <p>REST Assured, Postman, TestNG, Cucumber (BDD) Integration</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="cred-col">
+            <h3 class="cred-col-title">
+              <span class="icon">🎓</span> Academic Education
+            </h3>
+
+            <div class="edu-list">
+              <div class="edu-entry">
+                <div class="edu-top">
+                  <span class="degree-badge">B.Tech</span>
+                  <span class="score-badge">CGPA: 7.8 / 10</span>
+                </div>
+                <h4>Bachelor of Technology (Computer Science Engineering)</h4>
+                <div class="institution">Jaypee University of Engineering and Technology, Guna</div>
+              </div>
+
+              <div class="edu-entry">
+                <div class="edu-top">
+                  <span class="degree-badge">Class XII</span>
+                  <span class="score-badge">90%</span>
+                </div>
+                <h4>Higher Secondary (Science &amp; Mathematics)</h4>
+                <div class="institution">Sardar Patel School, Rewa (MP)</div>
+              </div>
+
+              <div class="edu-entry">
+                <div class="edu-top">
+                  <span class="degree-badge">Class X</span>
+                  <span class="score-badge">95%</span>
+                </div>
+                <h4>Secondary School Certificate</h4>
+                <div class="institution">Sardar Patel School, Rewa (MP)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Hire CTA -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-cta-wrapper">
+          <span class="sub-badge">Let's Connect</span>
+          <h2 class="contact-heading">Ready to Accelerate Automation with Agentic AI?</h2>
+          <p class="contact-subtext">
+            Currently based in <strong>Bangalore, India</strong> and open to full-time <strong>Senior Automation Test Engineer</strong> and <strong>Agentic AI Engineer</strong> roles (Hybrid / Remote / Onsite).
+          </p>
+
+          <div class="contact-methods-grid">
+            <a href="mailto:karan-pratap.singh@capgemini.com" class="contact-method-card">
+              <div class="method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="method-meta">
+                <span class="label">Email Karan</span>
+                <span class="val">karan-pratap.singh@capgemini.com</span>
+              </div>
+            </a>
+
+            <a href="tel:+918103990097" class="contact-method-card">
+              <div class="method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="method-meta">
+                <span class="label">Phone / WhatsApp</span>
+                <span class="val">+91 8103990097</span>
+              </div>
+            </a>
+
+            <div class="contact-method-card">
+              <div class="method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="method-meta">
+                <span class="label">Location</span>
+                <span class="val">Bangalore, Karnataka, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-cta-buttons">
+            <button class="btn btn-primary" onclick="window.print()">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
+              Save as PDF / Print
+            </button>
+            <a href="mailto:karan-pratap.singh@capgemini.com?subject=Senior%20Automation%20Test%20Engineer%20%2F%20Agentic%20AI%20Opportunity" class="btn btn-secondary">
+              Direct Mail Inquiry
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-row">
+      <div>
+        <strong>Karan Pratap Singh</strong> • Senior Automation Test Engineer &amp; Agentic AI Engineer
+      </div>
+      <div class="footer-note">
+        Playwright • Cucumber BDD • LangGraph • CrewAI • MCP • Docker • CI/CD
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
