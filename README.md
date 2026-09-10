@@ -1,6 +1,6 @@
 # Karan Pratap Singh — Modern Web Portfolio
 
-> **Automation Test Engineer | Playwright, Cucumber BDD & Agentic AI Specialist**  
+> **Automation Engineer | Agentic AI Engineer | DevOps Foundations**  
 > Location: Bangalore, India • Capgemini • Halliburton • Mercedes-Benz (MBRDI)
 
 ---
@@ -11,9 +11,9 @@
    - Recruiters and engineering managers can select scenarios (`@halliburton @smoke`, `@mercedes @regression`, `@agentic-ai @mcp`) and click **"Run Scenario"**.
    - Displays real-time step execution (`Given`, `When`, `Then`, `And`), dynamic green checkmarks, latency in milliseconds, and a streaming terminal showing Playwright worker sharding logs and trace generation.
 2. **Enterprise Experience Timeline**:
-   - **Halliburton (InnerVue Application)**: Playwright + TypeScript + Cucumber BDD framework built from scratch, 100+ tests migrated from Selenide, 150+ tests automated, GitHub Copilot agents + Playwright MCP server integration.
-   - **Mercedes-Benz (Basic Input Data App)**: 200+ tests, UI + REST Assured + Postman API validation, Grafana k6 load testing, Agentic AI test authoring, international German collaboration.
-   - **Mercedes-Benz (Admin Panel App)**: 150+ Selenium + Java tests, 40% reduction in manual regression effort, Confluence dashboards, CI/CD pipelines.
+   - **Halliburton**: Playwright + TypeScript + Cucumber BDD framework built from scratch, 100+ tests migrated from Selenide, 150+ tests automated, GitHub Copilot agents + Playwright MCP server integration.
+   - **Mercedes-Benz**: 200+ tests, UI + REST Assured + Postman API validation, Grafana k6 load testing, Agentic AI test authoring, international German collaboration.
+   - **Mercedes-Benz (Owner's Manual Program)**: 150+ Selenium + Java tests, 40% reduction in manual regression effort, Confluence dashboards, CI/CD pipelines.
 3. **Framework Architecture Deep Dive**:
    - Interactive 5-layer tabbed breakdown (Declarative BDD, Custom Cucumber World with storageState auth, Semantic Locators, Agentic AI with Playwright MCP, CI/CD Sharding).
 4. **Skills & Credentials**:
